@@ -1,6 +1,7 @@
 # React Todo App
 
-A simple and clean Todo application built with React and Vite.
+A task management application built with React and Vite.  
+Users can add, complete, delete, and filter tasks. Task data is stored in Local Storage.
 
 ## Live Demo
 [Open the project](https://matekvatchadze.github.io/React-todo-app/)
@@ -11,7 +12,7 @@ A simple and clean Todo application built with React and Vite.
 - Mark tasks as completed
 - Filter tasks by status: All / Active / Completed
 - Save tasks in Local Storage
-- Responsive and clean UI
+- Clean user interface
 
 ## Tech Stack
 - React
