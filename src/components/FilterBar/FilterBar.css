@@ -1,0 +1,24 @@
+.filterBtns {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.filterBtns button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 14px;
+  background: #e2e8f0;
+  color: #1e293b;
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.filterBtns button:hover {
+  background: #cbd5e1;
+}
+
+.filterBtns button.active {
+  background: #22c55e;
+  color: #ffffff;
+}

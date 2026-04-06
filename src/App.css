@@ -1,0 +1,52 @@
+.app {
+  min-height: 35vh;
+  display: flex;
+  justify-content: center;
+  padding: 40px 16px;
+}
+
+.todoCard {
+  width: 100%;
+  max-width: 560px;
+  background: #ffffff;
+  padding: 20px 10px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.todoTitle {
+  margin: 0 0 16px;
+  font-size: 32px;
+  line-height: 1.1;
+}
+
+.topBar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.tasksCount {
+  font-size: 14px;
+  color: #475569;
+}
+
+.clearBtn {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 14px;
+  background: #64748b;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.clearBtn:hover {
+  background: #475569;
+}
+
+.clearBtn:active {
+  transform: translateY(1px);
+}
