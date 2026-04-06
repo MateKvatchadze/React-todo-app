@@ -1,5 +1,6 @@
 # React Todo App
 
+![App Screenshot](./images/screenshot.png)
 
 A task management application built with React and Vite.  
 Users can add, complete, delete, and filter tasks. Task data is stored in Local Storage.
@@ -30,3 +31,4 @@ Users can add, complete, delete, and filter tasks. Task data is stored in Local 
 ```bash
 npm install
 npm run dev
+```
